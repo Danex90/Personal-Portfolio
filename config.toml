@@ -8,7 +8,7 @@ paginate                = 5
 disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
-disableLanguages        = []
+disableLanguages        = ["fr","pt","pl","de","es","ja","nl","zh-cn","zh-tw"]
 
 [markup.goldmark.renderer]
   unsafe                = true
@@ -29,10 +29,10 @@ disableLanguages        = []
   highlightjsTheme      = ""
   highlightjsLang       = []
   viewMorePostsLink     = "blog"
-  readingTime           = true
+  readingTime           = false
   imageStretch          = ""
   removeBlur            = false
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "email"]
   hideEmptyStats        = false
   toc                   = true
   tocWords              = 400
@@ -51,7 +51,7 @@ disableLanguages        = []
     dynamicTitles       = true
     searchMenu          = true
     shareMenu           = true
-    languageMenu        = true
+    languageMenu        = false
 
   [params.intro]
     header                = "Danladi Adamu"
@@ -60,12 +60,12 @@ disableLanguages        = []
     socialIntro           = true
     hideWhenSingleColumn  = false
     alwaysOnHomepage      = false
-
+  
     [params.intro.pic]
-      src                 = "img/main/logo.jpg"
+      src                 = "img/main/avi.jpg"
       shape               = "circle"
       width               = ""
-      alt                 = "Hugo Future Imperfect Slim"
+      alt                 = "Logo image"
 
   [params.sidebar]
 #    about               = "A collection of my posts and projects encompassing data science, healthcare and other sometimes nerdy interests"
@@ -74,8 +74,8 @@ disableLanguages        = []
     categoriesByCount   = false
 
   [params.footer]
-    rssFooter           = false
-    socialFooter        = true
+    rssFooter           = true
+    socialFooter        = false
 
   [params.utterances]
     enabled             = false
