@@ -74,7 +74,7 @@ disableLanguages        = ["fr","pt","pl","de","es","ja","nl","zh-cn","zh-tw"]
     categoriesByCount   = false
 
   [params.footer]
-    rssFooter           = true
+    rssFooter           = false
     socialFooter        = false
 
   [params.utterances]
@@ -116,8 +116,8 @@ disableLanguages        = ["fr","pt","pl","de","es","ja","nl","zh-cn","zh-tw"]
   [[menu.main]]
     name              = "Shiny Apps"
     identifier        = "ShinyApps"
-    url               = "ShinyApps"
-    pre               = "<i class='far fa-newspaper'></i>"
+    url               = "shinyapps"
+    pre               = "<i class='far fa-shinyapps'></i>"
     weight            = 3
 
   [[menu.main]]
